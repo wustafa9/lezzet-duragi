@@ -1,4 +1,4 @@
-/* Lezzet Durağı - betik.js | Mustafa Ömer Bingöl - 265308012 */
+/* Lezzet Durağı - betik.js | Mustafa Ömer Bingöl */
 
 // 1) Dış sitelere giden bağlantılar yeni sekmede açılsın
 for (var a of document.links) if (a.hostname) a.target = "_blank";
