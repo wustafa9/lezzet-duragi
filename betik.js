@@ -1,7 +1,7 @@
 /* Lezzet Durağı - betik.js | Mustafa Ömer Bingöl */
 
 // 1) Dış sitelere giden bağlantılar yeni sekmede açılsın
-for (var a of document.links) if (a.hostname) a.target = "_blank";
+for (var a of document.links) if (a.hostname != location.hostname) a.target = "_blank";
 
 // 2) Tarif arama: yazılan kelimeyi tarif adlarında arar, bulursa o tarife gider
 var tarifler = {
