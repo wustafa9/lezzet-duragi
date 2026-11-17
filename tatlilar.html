@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Tatlılar | Lezzet Durağı</title>
+  <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+<table class="sayfa">
+  <tr><td colspan="2" class="ust"><div>
+    <a class="logo" href="index.html">🍽️ Lezzet<b>Durağı</b></a>
+    <nav><a href="index.html">Ana Sayfa</a><a href="corbalar.html">Çorbalar</a><a href="anayemekler.html">Ana Yemekler</a><a href="tatlilar.html" class="aktif">Tatlılar</a><a href="duyurular.html">Duyurular</a><a href="hakkimda.html">Hakkımda</a><a href="iletisim.html">İletişim</a></nav>
+    <form onsubmit="return tarifAra(this)"><input name="q" placeholder="🔍 Tarif ara..."></form>
+    <button onclick="tema()" title="Koyu / açık tema">🌙</button><a class="giris" href="index.html#giris" title="Giriş Yap">👤</a>
+  </div></td></tr>
+  <tr><td colspan="2" class="serit"><div>
+    <b>SON DAKİKA</b><marquee onmouseover="this.stop()" onmouseout="this.start()">İstanbul’da birlikte hareket eden kuş sürüsü görüntülendi • Haaland için Real Madrid, Osimhen için Manchester City iddiası • Bitcoin bir ayda yaklaşık yüzde 21 değer kaybetti • Gram altın 6.240 TL’ye geriledi • Öğretmenden GTA 6’nın çıkış haftasında ödev ve sınav düzenlemesi</marquee>
+    <a href="https://esondakika.com/tr">Hocamızın Haber Sitesi <img src="haber-gorselleri/esondakika-logo.png" alt="eSonDakika"></a>
+  </div></td></tr>
+  <tr><td>
+    <div class="baslik"><h1>Tatlılar</h1><p>Sütlüden şerbetliye, yemeğin üzerine tatlı bir kapanış için 6 nefis tarif.</p></div>
+    <article class="tarif" id="sutlac"><img src="tarif-gorselleri/sutlac.jpg" alt="Sütlaç"><div>
+      <h2>Sütlaç</h2><p class="bilgi"><span>⏱ 45 dk</span><span>👥 6 kişi</span><span class="orta">Orta</span></p>
+      <p>Ocakta pişen hafif ve geleneksel bir sütlü tatlı.</p>
+      <h3>Malzemeler</h3><ul><li>1 litre süt</li><li>Yarım su bardağı pirinç</li><li>1 su bardağı şeker</li><li>2 yemek kaşığı pirinç unu, tarçın</li></ul>
+      <h3>Yapılışı</h3><ol><li>Pirinci az suyla yumuşayana kadar haşlayın.</li><li>Sütü ekleyip kaynatın, şekeri ilave edin.</li><li>Pirinç ununu biraz sütle açıp karışıma ekleyin.</li><li>Kaselere paylaştırın, soğuyunca tarçın serpin.</li></ol>
+      <p class="puf">💡 Sürekli karıştırarak pişirirseniz dibi tutmaz.</p>
+    </div></article>
+    <article class="tarif" id="irmik"><img src="tarif-gorselleri/irmik.jpg" alt="İrmik Helvası"><div>
+      <h2>İrmik Helvası</h2><p class="bilgi"><span>⏱ 30 dk</span><span>👥 6 kişi</span><span class="kolay">Kolay</span></p>
+      <p>Fıstıklı, şerbetli ve sıcacık; misafir sofralarının vazgeçilmezi.</p>
+      <h3>Malzemeler</h3><ul><li>2 su bardağı irmik</li><li>125 gr tereyağı</li><li>Yarım su bardağı fıstık</li><li>2,5 su bardağı süt, 1,5 su bardağı şeker</li></ul>
+      <h3>Yapılışı</h3><ol><li>Süt ve şekeri ısıtıp şerbeti hazırlayın.</li><li>İrmik ve fıstığı tereyağında pembeleşene kadar kavurun.</li><li>Sıcak şerbeti ekleyip karıştırın.</li><li>Kapağını kapatıp 10 dakika demlendirin.</li></ol>
+      <p class="puf">💡 Şerbeti eklerken sıçramaması için ocağı kısın.</p>
+    </div></article>
+    <article class="tarif" id="kek"><img src="tarif-gorselleri/kek.jpg" alt="Kakaolu Kek"><div>
+      <h2>Kakaolu Kek</h2><p class="bilgi"><span>⏱ 50 dk</span><span>👥 8 kişi</span><span class="kolay">Kolay</span></p>
+      <p>Çay saatlerinin klasiği, yumuşacık ve bol kakaolu bir kek.</p>
+      <h3>Malzemeler</h3><ul><li>3 yumurta, 1 su bardağı şeker</li><li>1'er su bardağı süt ve sıvı yağ</li><li>2,5 su bardağı un, 3 yemek kaşığı kakao</li><li>1'er paket kabartma tozu ve vanilya</li></ul>
+      <h3>Yapılışı</h3><ol><li>Yumurta ve şekeri köpük olana kadar çırpın.</li><li>Süt ve yağı ekleyip karıştırın.</li><li>Un, kakao, kabartma tozu ve vanilyayı ekleyin.</li><li>Yağlanmış kalıpta 180 derecede 35 dakika pişirin.</li></ol>
+      <p class="puf">💡 Kek pişerken ilk 20 dakika fırının kapağını açmayın.</p>
+    </div></article>
+    <article class="tarif" id="baklava"><img src="tarif-gorselleri/baklava.jpg" alt="Fıstıklı Baklava"><div>
+      <h2>Fıstıklı Baklava</h2><p class="bilgi"><span>⏱ 85 dk</span><span>👥 10 kişi</span><span class="zor">Zor</span></p>
+      <p>İncecik yufkalar ve bol fıstıkla bayram sofralarının yıldızı.</p>
+      <h3>Malzemeler</h3><ul><li>1 paket baklavalık yufka</li><li>250 gr tereyağı</li><li>1,5 su bardağı Antep fıstığı</li><li>3 su bardağı şeker, 2,5 su bardağı su, limon</li></ul>
+      <h3>Yapılışı</h3><ol><li>Şeker, su ve limonu 15 dakika kaynatıp şerbeti soğutun.</li><li>Yufkaları yağlayarak tepsiye serin, ortasına fıstık serpin.</li><li>Kalan yufkaları da yağlayarak dizin ve dilimleyin.</li><li>180 derecede kızarana kadar pişirip soğuk şerbeti dökün.</li></ol>
+      <p class="puf">💡 Sıcak baklavaya soğuk şerbet dökülürse baklava çıtır kalır.</p>
+    </div></article>
+    <article class="tarif" id="revani"><img src="tarif-gorselleri/revani.jpg" alt="Revani"><div>
+      <h2>Revani</h2><p class="bilgi"><span>⏱ 50 dk</span><span>👥 8 kişi</span><span class="kolay">Kolay</span></p>
+      <p>İrmikli, yumuşacık ve şerbetli; hazırlaması kolay bir tepsi tatlısı.</p>
+      <h3>Malzemeler</h3><ul><li>3 yumurta, 1 su bardağı şeker</li><li>1'er su bardağı yoğurt, irmik ve un</li><li>1 paket kabartma tozu</li><li>2,5 su bardağı şeker, 3 su bardağı su</li></ul>
+      <h3>Yapılışı</h3><ol><li>Şerbeti kaynatıp soğumaya bırakın.</li><li>Yumurta ve şekeri çırpın, yoğurdu ekleyin.</li><li>İrmik, un ve kabartma tozunu ekleyip karıştırın.</li><li>180 derecede 35 dakika pişirin, ılıkken şerbetini dökün.</li></ol>
+      <p class="puf">💡 Üzerine hindistan cevizi veya limon kabuğu rendesi serpebilirsiniz.</p>
+    </div></article>
+    <article class="tarif" id="kazandibi"><img src="tarif-gorselleri/kazandibi.jpg" alt="Kazandibi"><div>
+      <h2>Kazandibi</h2><p class="bilgi"><span>⏱ 40 dk</span><span>👥 6 kişi</span><span class="orta">Orta</span></p>
+      <p>Altı hafifçe yakılarak karamelize edilen geleneksel bir muhallebi.</p>
+      <h3>Malzemeler</h3><ul><li>1 litre süt, 1 su bardağı şeker</li><li>4 yemek kaşığı pirinç unu</li><li>2 yemek kaşığı nişasta, 1 paket vanilya</li><li>Tabanı için pudra şekeri ve tereyağı</li></ul>
+      <h3>Yapılışı</h3><ol><li>Süt, şeker, pirinç unu ve nişastayı karıştırarak pişirin.</li><li>Koyulaşınca vanilyayı ekleyin.</li><li>Tereyağlı ve şekerli tepsinin altını ocakta karamelize edin.</li><li>Muhallebiyi tepsiye döküp soğutun, rulo şeklinde kesin.</li></ol>
+      <p class="puf">💡 Tepsinin altını yakarken tepsiyi sürekli çevirin; her yeri eşit renk alır.</p>
+    </div></article>
+  </td><td class="yan"><div>
+    <h3>Bu Sayfadaki Tarifler</h3>
+    <a class="mini" href="#sutlac"><img src="tarif-gorselleri/sutlac.jpg" alt="">Sütlaç</a>
+    <a class="mini" href="#irmik"><img src="tarif-gorselleri/irmik.jpg" alt="">İrmik Helvası</a>
+    <a class="mini" href="#kek"><img src="tarif-gorselleri/kek.jpg" alt="">Kakaolu Kek</a>
+    <a class="mini" href="#baklava"><img src="tarif-gorselleri/baklava.jpg" alt="">Fıstıklı Baklava</a>
+    <a class="mini" href="#revani"><img src="tarif-gorselleri/revani.jpg" alt="">Revani</a>
+    <a class="mini" href="#kazandibi"><img src="tarif-gorselleri/kazandibi.jpg" alt="">Kazandibi</a>
+    <a class="btn ig-renk" href="https://www.instagram.com/mustfa_bngz/">📸 @mustfa_bngz</a>
+  </div></td></tr>
+  <tr><td colspan="2" class="alt"><div>
+    <p class="logo">🍽️ Lezzet<b>Durağı</b></p>
+    <p><a href="corbalar.html">Çorbalar</a> · <a href="anayemekler.html">Ana Yemekler</a> · <a href="tatlilar.html">Tatlılar</a> · <a href="duyurular.html">Duyurular</a> · <a href="hakkimda.html">Hakkımda</a> · <a href="iletisim.html">İletişim</a> · <a href="https://www.instagram.com/mustfa_bngz/">Instagram @mustfa_bngz</a></p>
+    <p>© 2026 Mustafa Ömer Bingöl · Web Tasarımının Temelleri Vize Projesi · Fotoğraflar: Wikimedia Commons (CC) · Haberler: eSonDakika.com</p>
+  </div></td></tr>
+</table>
+<script src="betik.js"></script>
+</body>
+</html>

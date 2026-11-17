@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Ana Yemekler | Lezzet Durağı</title>
+  <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+<table class="sayfa">
+  <tr><td colspan="2" class="ust"><div>
+    <a class="logo" href="index.html">🍽️ Lezzet<b>Durağı</b></a>
+    <nav><a href="index.html">Ana Sayfa</a><a href="corbalar.html">Çorbalar</a><a href="anayemekler.html" class="aktif">Ana Yemekler</a><a href="tatlilar.html">Tatlılar</a><a href="duyurular.html">Duyurular</a><a href="hakkimda.html">Hakkımda</a><a href="iletisim.html">İletişim</a></nav>
+    <form onsubmit="return tarifAra(this)"><input name="q" placeholder="🔍 Tarif ara..."></form>
+    <button onclick="tema()" title="Koyu / açık tema">🌙</button><a class="giris" href="index.html#giris" title="Giriş Yap">👤</a>
+  </div></td></tr>
+  <tr><td colspan="2" class="serit"><div>
+    <b>SON DAKİKA</b><marquee onmouseover="this.stop()" onmouseout="this.start()">İstanbul’da birlikte hareket eden kuş sürüsü görüntülendi • Haaland için Real Madrid, Osimhen için Manchester City iddiası • Bitcoin bir ayda yaklaşık yüzde 21 değer kaybetti • Gram altın 6.240 TL’ye geriledi • Öğretmenden GTA 6’nın çıkış haftasında ödev ve sınav düzenlemesi</marquee>
+    <a href="https://esondakika.com/tr">Hocamızın Haber Sitesi <img src="haber-gorselleri/esondakika-logo.png" alt="eSonDakika"></a>
+  </div></td></tr>
+  <tr><td>
+    <div class="baslik"><h1>Ana Yemekler</h1><p>Kahvaltıdan akşam yemeğine her öğüne uygun, doyurucu 6 ana yemek tarifi.</p></div>
+    <article class="tarif" id="makarna"><img src="tarif-gorselleri/makarna.jpg" alt="Domatesli Makarna"><div>
+      <h2>Domatesli Makarna</h2><p class="bilgi"><span>⏱ 20 dk</span><span>👥 3 kişi</span><span class="kolay">Kolay</span></p>
+      <p>Az malzemeyle 20 dakikada hazırlanan pratik bir akşam yemeği.</p>
+      <h3>Malzemeler</h3><ul><li>1 paket makarna</li><li>2 domates, 1 yemek kaşığı salça</li><li>2 diş sarımsak, zeytinyağı</li><li>Tuz, fesleğen</li></ul>
+      <h3>Yapılışı</h3><ol><li>Makarnayı tuzlu suda haşlayıp süzün.</li><li>Sarımsağı zeytinyağında hafifçe kavurun.</li><li>Domates ve salçayı ekleyip sos kıvamına gelene kadar pişirin.</li><li>Sosu makarnayla karıştırıp servis yapın.</li></ol>
+      <p class="puf">💡 Haşlama suyundan biraz sosa eklerseniz sos makarnaya daha iyi tutunur.</p>
+    </div></article>
+    <article class="tarif" id="menemen"><img src="tarif-gorselleri/menemen.jpg" alt="Menemen"><div>
+      <h2>Menemen</h2><p class="bilgi"><span>⏱ 15 dk</span><span>👥 2 kişi</span><span class="kolay">Kolay</span></p>
+      <p>Kahvaltıların yıldızı: domates, biber ve yumurtanın uyumu.</p>
+      <h3>Malzemeler</h3><ul><li>3 yumurta</li><li>2 domates, 2 sivri biber</li><li>1 yemek kaşığı tereyağı</li><li>Tuz, pul biber</li></ul>
+      <h3>Yapılışı</h3><ol><li>Biberleri tereyağında soteleyin.</li><li>Doğranmış domatesleri ekleyip suyunu çekene kadar pişirin.</li><li>Yumurtaları kırıp karıştırın ve tuzunu ekleyin.</li></ol>
+      <p class="puf">💡 Domatesin suyunu iyice çektirirseniz menemen sulu olmaz.</p>
+    </div></article>
+    <article class="tarif" id="pilav"><img src="tarif-gorselleri/pilav.jpg" alt="Pirinç Pilavı"><div>
+      <h2>Pirinç Pilavı</h2><p class="bilgi"><span>⏱ 35 dk</span><span>👥 4 kişi</span><span class="orta">Orta</span></p>
+      <p>Tane tane pilavın sırrı doğru bekletme ve demlendirmede.</p>
+      <h3>Malzemeler</h3><ul><li>2 su bardağı pirinç</li><li>3 su bardağı sıcak su</li><li>2 yemek kaşığı tereyağı, tuz</li></ul>
+      <h3>Yapılışı</h3><ol><li>Pirinci ılık suda 20 dakika bekletip yıkayın.</li><li>Tereyağında pirinci 3-4 dakika kavurun.</li><li>Sıcak su ve tuzu ekleyip kısık ateşte suyunu çekene kadar pişirin.</li><li>Ocaktan alıp 10 dakika demlendirin.</li></ol>
+      <p class="puf">💡 Demlenirken kapağın altına kâğıt havlu koyun; buhar pilava damlamaz.</p>
+    </div></article>
+    <article class="tarif" id="kurufasulye"><img src="tarif-gorselleri/kurufasulye.jpg" alt="Kuru Fasulye"><div>
+      <h2>Kuru Fasulye</h2><p class="bilgi"><span>⏱ 1 gece + 60 dk</span><span>👥 4 kişi</span><span class="orta">Orta</span></p>
+      <p>Pilavın en iyi arkadaşı; Türk mutfağının vazgeçilmez tencere yemeği.</p>
+      <h3>Malzemeler</h3><ul><li>2 su bardağı kuru fasulye</li><li>1 soğan, 2 yemek kaşığı salça</li><li>3 yemek kaşığı sıvı yağ</li><li>Sıcak su, tuz, pul biber</li></ul>
+      <h3>Yapılışı</h3><ol><li>Fasulyeyi bir gece önceden suda bekletin.</li><li>Soğanı yağda kavurup salçayı ekleyin.</li><li>Süzülmüş fasulye ve sıcak suyu ilave edin.</li><li>Kısık ateşte fasulyeler yumuşayana kadar pişirin.</li></ol>
+      <p class="puf">💡 Tuzu fasulyeler yumuşadıktan sonra ekleyin; erken eklenirse geç pişer.</p>
+    </div></article>
+    <article class="tarif" id="karniyarik"><img src="tarif-gorselleri/karniyarik.jpg" alt="Karnıyarık"><div>
+      <h2>Karnıyarık</h2><p class="bilgi"><span>⏱ 60 dk</span><span>👥 4 kişi</span><span class="orta">Orta</span></p>
+      <p>Kıymalı harçla doldurulan patlıcanların fırındaki şöleni.</p>
+      <h3>Malzemeler</h3><ul><li>4 patlıcan</li><li>250 gr kıyma, 1 soğan</li><li>2 domates, 2 sivri biber</li><li>1 yemek kaşığı salça, sıvı yağ, tuz</li></ul>
+      <h3>Yapılışı</h3><ol><li>Patlıcanları alacalı soyup yağda kızartın.</li><li>Soğan ve kıymayı kavurun; domates, biber ve salçayı ekleyin.</li><li>Patlıcanları ortadan yarıp harcı doldurun.</li><li>Üzerine domates ve biber koyup 180 derecede 25 dakika pişirin.</li></ol>
+      <p class="puf">💡 Kızaran patlıcanları kâğıt havluya alırsanız fazla yağını çeker.</p>
+    </div></article>
+    <article class="tarif" id="kofte"><img src="tarif-gorselleri/kofte.jpg" alt="İzmir Köfte"><div>
+      <h2>İzmir Köfte</h2><p class="bilgi"><span>⏱ 55 dk</span><span>👥 4 kişi</span><span class="orta">Orta</span></p>
+      <p>Patates, biber ve domatesle fırında pişen sulu bir köfte.</p>
+      <h3>Malzemeler</h3><ul><li>500 gr kıyma, 1 soğan</li><li>1 dilim bayat ekmek içi, 1 yumurta</li><li>3 patates, 2 biber, 2 domates</li><li>1 yemek kaşığı salça, tuz, kimyon</li></ul>
+      <h3>Yapılışı</h3><ol><li>Kıyma, rendelenmiş soğan, ekmek içi, yumurta ve baharatları yoğurun.</li><li>Köfteleri şekillendirip hafifçe kızartın.</li><li>Kızartılmış patateslerle tepsiye dizin.</li><li>Salçalı sosu ekleyip 180 derecede 20 dakika pişirin.</li></ol>
+      <p class="puf">💡 Köfte harcını 30 dakika buzdolabında dinlendirirseniz köfteler dağılmaz.</p>
+    </div></article>
+  </td><td class="yan"><div>
+    <h3>Bu Sayfadaki Tarifler</h3>
+    <a class="mini" href="#makarna"><img src="tarif-gorselleri/makarna.jpg" alt="">Domatesli Makarna</a>
+    <a class="mini" href="#menemen"><img src="tarif-gorselleri/menemen.jpg" alt="">Menemen</a>
+    <a class="mini" href="#pilav"><img src="tarif-gorselleri/pilav.jpg" alt="">Pirinç Pilavı</a>
+    <a class="mini" href="#kurufasulye"><img src="tarif-gorselleri/kurufasulye.jpg" alt="">Kuru Fasulye</a>
+    <a class="mini" href="#karniyarik"><img src="tarif-gorselleri/karniyarik.jpg" alt="">Karnıyarık</a>
+    <a class="mini" href="#kofte"><img src="tarif-gorselleri/kofte.jpg" alt="">İzmir Köfte</a>
+    <a class="btn ig-renk" href="https://www.instagram.com/mustfa_bngz/">📸 @mustfa_bngz</a>
+  </div></td></tr>
+  <tr><td colspan="2" class="alt"><div>
+    <p class="logo">🍽️ Lezzet<b>Durağı</b></p>
+    <p><a href="corbalar.html">Çorbalar</a> · <a href="anayemekler.html">Ana Yemekler</a> · <a href="tatlilar.html">Tatlılar</a> · <a href="duyurular.html">Duyurular</a> · <a href="hakkimda.html">Hakkımda</a> · <a href="iletisim.html">İletişim</a> · <a href="https://www.instagram.com/mustfa_bngz/">Instagram @mustfa_bngz</a></p>
+    <p>© 2026 Mustafa Ömer Bingöl · Web Tasarımının Temelleri Vize Projesi · Fotoğraflar: Wikimedia Commons (CC) · Haberler: eSonDakika.com</p>
+  </div></td></tr>
+</table>
+<script src="betik.js"></script>
+</body>
+</html>

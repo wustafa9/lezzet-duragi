@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Ana Sayfa | Lezzet Durağı</title>
+  <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+<table class="sayfa">
+  <tr><td colspan="2" class="ust"><div>
+    <a class="logo" href="index.html">🍽️ Lezzet<b>Durağı</b></a>
+    <nav><a href="index.html" class="aktif">Ana Sayfa</a><a href="corbalar.html">Çorbalar</a><a href="anayemekler.html">Ana Yemekler</a><a href="tatlilar.html">Tatlılar</a><a href="duyurular.html">Duyurular</a><a href="hakkimda.html">Hakkımda</a><a href="iletisim.html">İletişim</a></nav>
+    <form onsubmit="return tarifAra(this)"><input name="q" placeholder="🔍 Tarif ara..."></form>
+    <button onclick="tema()" title="Koyu / açık tema">🌙</button><a class="giris" href="index.html#giris" title="Giriş Yap">👤</a>
+  </div></td></tr>
+  <tr><td colspan="2" class="serit"><div>
+    <b>SON DAKİKA</b><marquee onmouseover="this.stop()" onmouseout="this.start()">İstanbul’da birlikte hareket eden kuş sürüsü görüntülendi • Haaland için Real Madrid, Osimhen için Manchester City iddiası • Bitcoin bir ayda yaklaşık yüzde 21 değer kaybetti • Gram altın 6.240 TL’ye geriledi • Öğretmenden GTA 6’nın çıkış haftasında ödev ve sınav düzenlemesi</marquee>
+    <a href="https://esondakika.com/tr">Hocamızın Haber Sitesi <img src="haber-gorselleri/esondakika-logo.png" alt="eSonDakika"></a>
+  </div></td></tr>
+  <tr><td colspan="2">
+    <section class="hero">
+      <div>
+        <span class="rozet">🔥 2026'nın favori ev yemekleri</span>
+        <h1>Bugün ne pişirsek?</h1>
+        <p>Çorbadan tatlıya 18 pratik tarif, adım adım anlatımlar ve hocamızın sitesinden 150 güncel haber tek bir yerde.</p>
+        <a class="btn" href="#tarifler">Tariflere Göz At</a> <a class="btn bos" href="duyurular.html">Haberleri Oku</a>
+        <p class="sayilar"><span><b>18</b>tarif</span><span><b>150</b>haber</span><span><b>3</b>kategori</span></p>
+      </div>
+      <img src="tarif-gorselleri/kapak.jpg" alt="Türk kahvaltı sofrası">
+    </section>
+    <h2>Kategoriler</h2>
+    <div class="izgara">
+      <a class="kategori" href="corbalar.html"><img src="tarif-gorselleri/ezogelin.jpg" alt=""><span>Çorbalar<small>6 tarif</small></span></a>
+      <a class="kategori" href="anayemekler.html"><img src="tarif-gorselleri/karniyarik.jpg" alt=""><span>Ana Yemekler<small>6 tarif</small></span></a>
+      <a class="kategori" href="tatlilar.html"><img src="tarif-gorselleri/baklava.jpg" alt=""><span>Tatlılar<small>6 tarif</small></span></a>
+    </div>
+    <h2 id="tarifler">Popüler Tarifler <a href="corbalar.html">Tümü →</a></h2>
+    <div class="izgara">
+      <a href="corbalar.html#mercimek"><img src="tarif-gorselleri/mercimek.jpg" alt=""><h3>Mercimek Çorbası</h3><small>⏱ 40 dk · 👥 4 kişi</small></a>
+      <a href="anayemekler.html#karniyarik"><img src="tarif-gorselleri/karniyarik.jpg" alt=""><h3>Karnıyarık</h3><small>⏱ 60 dk · 👥 4 kişi</small></a>
+      <a href="tatlilar.html#baklava"><img src="tarif-gorselleri/baklava.jpg" alt=""><h3>Fıstıklı Baklava</h3><small>⏱ 85 dk · 👥 10 kişi</small></a>
+      <a href="anayemekler.html#menemen"><img src="tarif-gorselleri/menemen.jpg" alt=""><h3>Menemen</h3><small>⏱ 15 dk · 👥 2 kişi</small></a>
+      <a href="corbalar.html#tarhana"><img src="tarif-gorselleri/tarhana.jpg" alt=""><h3>Tarhana Çorbası</h3><small>⏱ 25 dk · 👥 4 kişi</small></a>
+      <a href="tatlilar.html#kek"><img src="tarif-gorselleri/kek.jpg" alt=""><h3>Kakaolu Kek</h3><small>⏱ 50 dk · 👥 8 kişi</small></a>
+    </div>
+    <section class="tanitim">
+      <div class="avatar">MÖB</div>
+      <div><span class="rozet">👋 Merhaba, ben Mustafa!</span>
+      <p>Yazılıma tutkuyla bağlı bir Bilgisayar Programcılığı öğrencisiyim. Tarayıcı eklentilerinden Python botlarına kadar
+      10'dan fazla proje geliştirdim; bu siteyi de HTML, CSS ve JavaScript ile sıfırdan kodladım.</p>
+      <a class="btn" href="hakkimda.html">Beni Tanıyın →</a></div>
+    </section>
+    <h2>Son Haberler <a href="duyurular.html">Tüm haberler (150) →</a></h2>
+    <div class="izgara dort">
+      <a href="https://esondakika.com/tr/yasam/istanbul-da-birlikte-hareket-eden-kus-surusu-goruntulendi-00381256"><img src="haber-gorselleri/08.jpg" alt=""><h3>İstanbul’da birlikte hareket eden kuş sürüsü görüntülendi</h3></a>
+      <a href="https://esondakika.com/tr/spor/haaland-icin-real-madrid-osimhen-icin-manchester-city-iddiasi-03780281"><img src="haber-gorselleri/38.jpg" alt=""><h3>Haaland için Real Madrid, Osimhen için Manchester City iddiası</h3></a>
+      <a href="https://esondakika.com/tr/ekonomi/bitcoin-bir-ayda-yaklasik-yuzde-21-deger-kaybetti-17241744"><img src="haber-gorselleri/45.jpg" alt=""><h3>Bitcoin bir ayda yaklaşık yüzde 21 değer kaybetti</h3></a>
+      <a href="https://esondakika.com/tr/ekonomi/gram-altin-6-240-tl-ye-geriledi-43643610"><img src="haber-gorselleri/46.jpg" alt=""><h3>Gram altın 6.240 TL’ye geriledi</h3></a>
+    </div>
+    <section class="ig">
+      <div><h2>Instagram'da Biz</h2><p>Duyurulardaki haberleri <b>@mustfa_bngz</b> hesabımda görselli kartlarla paylaşıyorum.</p><a class="btn beyaz" href="https://www.instagram.com/mustfa_bngz/">Takip Et</a></div>
+      <div class="ig-galeri"><img src="instagram-gorselleri/1.jpg" alt=""><img src="instagram-gorselleri/2.jpg" alt=""><img src="instagram-gorselleri/3.jpg" alt=""><img src="instagram-gorselleri/4.jpg" alt=""><img src="instagram-gorselleri/5.jpg" alt=""><img src="instagram-gorselleri/6.jpg" alt=""></div>
+    </section>
+    <h2>Mutfak İpuçları</h2>
+    <ul class="ipucu">
+      <li>🧅 Soğanı doğramadan önce 10 dakika buzdolabında bekletirseniz gözleriniz yaşarmaz.</li>
+      <li>🍚 Pilavın tane tane olması için pirinci ılık tuzlu suda bekletin.</li>
+      <li>🥚 Yumurtayı suya bırakın; batıyorsa tazedir.</li>
+      <li>🥔 Çorbanız tuzlu olduysa soyulmuş bir patates atıp 10 dakika kaynatın.</li>
+    </ul>
+  </td></tr>
+  <tr><td colspan="2" class="alt"><div>
+    <p class="logo">🍽️ Lezzet<b>Durağı</b></p>
+    <p><a href="corbalar.html">Çorbalar</a> · <a href="anayemekler.html">Ana Yemekler</a> · <a href="tatlilar.html">Tatlılar</a> · <a href="duyurular.html">Duyurular</a> · <a href="hakkimda.html">Hakkımda</a> · <a href="iletisim.html">İletişim</a> · <a href="https://www.instagram.com/mustfa_bngz/">Instagram @mustfa_bngz</a></p>
+    <p>© 2026 Mustafa Ömer Bingöl · Web Tasarımının Temelleri Vize Projesi · Fotoğraflar: Wikimedia Commons (CC) · Haberler: eSonDakika.com</p>
+  </div></td></tr>
+</table>
+<div id="giris" class="modal">
+  <form class="kutu" onsubmit="return mesaj(this, 'Hoş geldiniz! Üyelik sistemi yakında açılacak.')">
+    <a class="kapat" href="#">×</a><h2>Giriş Yap</h2>
+    <input placeholder="Kullanıcı adı" required><input type="password" placeholder="Şifre" required>
+    <input class="btn" type="submit" value="Giriş Yap">
+  </form>
+</div>
+<script src="betik.js"></script>
+</body>
+</html>

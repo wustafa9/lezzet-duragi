@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>İletişim | Lezzet Durağı</title>
+  <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+<table class="sayfa">
+  <tr><td colspan="2" class="ust"><div>
+    <a class="logo" href="index.html">🍽️ Lezzet<b>Durağı</b></a>
+    <nav><a href="index.html">Ana Sayfa</a><a href="corbalar.html">Çorbalar</a><a href="anayemekler.html">Ana Yemekler</a><a href="tatlilar.html">Tatlılar</a><a href="duyurular.html">Duyurular</a><a href="hakkimda.html">Hakkımda</a><a href="iletisim.html" class="aktif">İletişim</a></nav>
+    <form onsubmit="return tarifAra(this)"><input name="q" placeholder="🔍 Tarif ara..."></form>
+    <button onclick="tema()" title="Koyu / açık tema">🌙</button><a class="giris" href="index.html#giris" title="Giriş Yap">👤</a>
+  </div></td></tr>
+  <tr><td colspan="2" class="serit"><div>
+    <b>SON DAKİKA</b><marquee onmouseover="this.stop()" onmouseout="this.start()">İstanbul’da birlikte hareket eden kuş sürüsü görüntülendi • Haaland için Real Madrid, Osimhen için Manchester City iddiası • Bitcoin bir ayda yaklaşık yüzde 21 değer kaybetti • Gram altın 6.240 TL’ye geriledi • Öğretmenden GTA 6’nın çıkış haftasında ödev ve sınav düzenlemesi</marquee>
+    <a href="https://esondakika.com/tr">Hocamızın Haber Sitesi <img src="haber-gorselleri/esondakika-logo.png" alt="eSonDakika"></a>
+  </div></td></tr>
+  <tr><td>
+    <div class="baslik"><h1>İletişim</h1><p>Görüş, öneri veya kendi tarifinizi gönderin; en kısa sürede dönüş yapayım.</p></div>
+    <form class="kutu form" onsubmit="return mesaj(this, 'Teşekkürler! Mesajınız alınmıştır.')">
+      <table>
+        <tr><td><input placeholder="Adınız Soyadınız" required></td><td><input type="email" placeholder="E-posta adresiniz" required></td></tr>
+        <tr><td colspan="2"><select><option>Tarif Önerisi</option><option>Görüş / Öneri</option><option>Haberler Hakkında</option><option>Diğer</option></select></td></tr>
+        <tr><td colspan="2"><textarea rows="6" placeholder="Mesajınız..."></textarea></td></tr>
+        <tr><td colspan="2"><label><input type="checkbox" checked> Yeni tariflerden haberdar olmak istiyorum</label></td></tr>
+      </table>
+      <input class="btn" type="submit" value="Mesajı Gönder"> <input class="btn bos" type="reset" value="Temizle">
+    </form>
+    <h2>Sıkça Sorulan Sorular</h2>
+    <dl class="kutu sss">
+      <dt>Kendi tarifimi sitede yayınlatabilir miyim?</dt><dd>Evet! Formda “Tarif Önerisi”ni seçip tarifinizi gönderebilirsiniz.</dd>
+      <dt>Duyurulardaki haberler nereden alınıyor?</dt><dd>Hocamızın sitesi eSonDakika.com'dan seçilir; her haber kaynağına bağlanır.</dd>
+      <dt>Sizi sosyal medyadan takip edebilir miyim?</dt><dd>Elbette! Haberleri Instagram'da @mustfa_bngz hesabımdan paylaşıyorum.</dd>
+    </dl>
+  </td><td class="yan"><div>
+    <h3>Bize Ulaşın</h3>
+    <p>🏫 Pasinler Meslek Yüksekokulu, Pasinler / ERZURUM</p><p>📧 info@lezzetduragi.com</p><p>⏰ Hafta içi 09:00 - 18:00</p>
+    <a class="btn ig-renk" href="https://www.instagram.com/mustfa_bngz/">📸 @mustfa_bngz</a>
+  </div></td></tr>
+  <tr><td colspan="2" class="alt"><div>
+    <p class="logo">🍽️ Lezzet<b>Durağı</b></p>
+    <p><a href="corbalar.html">Çorbalar</a> · <a href="anayemekler.html">Ana Yemekler</a> · <a href="tatlilar.html">Tatlılar</a> · <a href="duyurular.html">Duyurular</a> · <a href="hakkimda.html">Hakkımda</a> · <a href="iletisim.html">İletişim</a> · <a href="https://www.instagram.com/mustfa_bngz/">Instagram @mustfa_bngz</a></p>
+    <p>© 2026 Mustafa Ömer Bingöl · Web Tasarımının Temelleri Vize Projesi · Fotoğraflar: Wikimedia Commons (CC) · Haberler: eSonDakika.com</p>
+  </div></td></tr>
+</table>
+<script src="betik.js"></script>
+</body>
+</html>

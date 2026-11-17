@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Hakkımda | Lezzet Durağı</title>
+  <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+<table class="sayfa">
+  <tr><td colspan="2" class="ust"><div>
+    <a class="logo" href="index.html">🍽️ Lezzet<b>Durağı</b></a>
+    <nav><a href="index.html">Ana Sayfa</a><a href="corbalar.html">Çorbalar</a><a href="anayemekler.html">Ana Yemekler</a><a href="tatlilar.html">Tatlılar</a><a href="duyurular.html">Duyurular</a><a href="hakkimda.html" class="aktif">Hakkımda</a><a href="iletisim.html">İletişim</a></nav>
+    <form onsubmit="return tarifAra(this)"><input name="q" placeholder="🔍 Tarif ara..."></form>
+    <button onclick="tema()" title="Koyu / açık tema">🌙</button><a class="giris" href="index.html#giris" title="Giriş Yap">👤</a>
+  </div></td></tr>
+  <tr><td colspan="2" class="serit"><div>
+    <b>SON DAKİKA</b><marquee onmouseover="this.stop()" onmouseout="this.start()">İstanbul’da birlikte hareket eden kuş sürüsü görüntülendi • Haaland için Real Madrid, Osimhen için Manchester City iddiası • Bitcoin bir ayda yaklaşık yüzde 21 değer kaybetti • Gram altın 6.240 TL’ye geriledi • Öğretmenden GTA 6’nın çıkış haftasında ödev ve sınav düzenlemesi</marquee>
+    <a href="https://esondakika.com/tr">Hocamızın Haber Sitesi <img src="haber-gorselleri/esondakika-logo.png" alt="eSonDakika"></a>
+  </div></td></tr>
+  <tr><td colspan="2">
+    <section class="tanitim buyuk">
+      <div class="avatar">MÖB</div>
+      <div><span class="rozet">👋 Kendimi Tanıtıyorum</span><h1>Mustafa Ömer Bingöl</h1>
+      <p>Bilgisayar Programcılığı Öğrencisi · Yazılım Geliştirici · Web Tasarımcı</p>
+      <a class="btn ig-renk" href="https://www.instagram.com/mustfa_bngz/">📸 @mustfa_bngz</a> <a class="btn bos" href="iletisim.html">İletişime Geç</a></div>
+    </section>
+    <p class="sayilar ortala"><span><b>10+</b>yazılım projesi</span><span><b>6+</b>dil ve teknoloji</span><span><b>18</b>tarif</span><span><b>150</b>haber</span></p>
+    <div class="ikili">
+      <div class="kutu">
+        <h2>Ben Kimim?</h2>
+        <p>Atatürk Üniversitesi Pasinler Meslek Yüksekokulu Bilgisayar Programcılığı 1. sınıf öğrencisiyim; ancak yazılımla
+        yolculuğum üniversiteden çok önce başladı. Bugün modern web siteleri tasarlayabilen, Python ile otomasyonlar yazabilen
+        ve kendi tarayıcı eklentilerini geliştirebilen bir yazılımcıyım.</p>
+        <p>Karşılaştığım her sorunu, onu çözen aracı kendim yazarak aşmayı seviyorum. Yeni bir teknolojiyi kısa sürede öğrenip
+        gerçek bir projede kullanabilmem en güçlü yanım; geliştirdiğim uygulamaları her gün kendim ve çevremdekiler kullanıyor.</p>
+        <p>Bu site de bunun bir örneği: tasarımından kodlamasına, 150 haberin derlenmesinden Instagram hesabına kadar her aşamasını
+        planlayıp hayata geçirdim. Kodunu çıktı alınabilecek kadar sade ve düzenli yazmaya özen gösterdim.</p>
+      </div>
+      <div class="kutu">
+        <h2>Yetkinliklerim</h2>
+        <ul class="beceri"><li>HTML5 &amp; CSS3 <small>%95</small><i style="width:95%"></i></li><li>JavaScript <small>%88</small><i style="width:88%"></i></li><li>Python <small>%90</small><i style="width:90%"></i></li><li>Tarayıcı Eklentisi Geliştirme <small>%92</small><i style="width:92%"></i></li><li>Firebase &amp; Veritabanı <small>%80</small><i style="width:80%"></i></li><li>Photoshop &amp; Görsel Tasarım <small>%82</small><i style="width:82%"></i></li></ul>
+      </div>
+    </div>
+    <h2>Geliştirdiğim Projeler</h2>
+    <div class="izgara dort proje">
+      <div class="kutu"><h3>🧩 Tarayıcı Eklentisi</h3><p>Klip indirme, sesli kelime alarmı, yapay zekâ destekli yardım asistanı ve Firebase üyelik sistemi içeren kapsamlı Chrome eklentisi.</p></div>
+      <div class="kutu"><h3>🤖 Yayın Arşiv Botu</h3><p>Canlı yayın kayıtlarını otomatik indirip ekran kartı hızlandırmasıyla işleyen ve Telegram'da arşivleyen Python botu.</p></div>
+      <div class="kutu"><h3>🎮 Oyun Modu</h3><p>Bilgisayarı oyuna tek tıkla hazırlayan; çözünürlük, RAM temizliği ve güç tüketimi göstergesi içeren Windows uygulaması.</p></div>
+      <div class="kutu"><h3>🔐 Özel Arşiv</h3><p>Fotoğraf ve videoları şifreleyip saklayan, iki adımlı doğrulamayla korunan kişisel bulut arşivi.</p></div>
+    </div>
+    <div class="ikili">
+      <div class="kutu">
+        <h2>Bu Sitede Kullandıklarım</h2>
+        <ul class="etiketler">
+          <li><code>&lt;table&gt; &lt;tr&gt; &lt;td&gt;</code>Sayfa iskeleti ve tablolar</li>
+          <li><code>&lt;form&gt; &lt;input&gt; &lt;select&gt;</code>Arama, giriş ve iletişim formları</li>
+          <li><code>&lt;ul&gt; &lt;ol&gt; &lt;li&gt;</code>Malzemeler ve yapılış adımları</li>
+          <li><code>&lt;marquee&gt;</code>Son dakika kayan yazı şeridi</li>
+          <li><code>&lt;a&gt; &lt;img&gt;</code>Bağlantılar ve görseller</li>
+          <li><code>&lt;nav&gt; &lt;section&gt; &lt;article&gt;</code>HTML5 bölümleri</li>
+          <li><code>CSS</code>Değişkenler, flex/grid, animasyon, koyu tema</li>
+          <li><code>JavaScript</code>Tarif arama, form mesajları, tema</li>
+        </ul>
+      </div>
+      <div class="kutu">
+        <h2>Proje Bilgileri</h2>
+        <table class="bilgi-tablo">
+          <tr><th>Öğrenci</th><td>Mustafa Ömer Bingöl</td></tr><tr><th>Numara</th><td>265308012</td></tr>
+          <tr><th>Okul</th><td>Atatürk Üniversitesi Pasinler MYO</td></tr><tr><th>Program</th><td>Bilgisayar Programcılığı</td></tr>
+          <tr><th>Ders</th><td>Web Tasarımının Temelleri</td></tr><tr><th>Sorumlu</th><td>Öğr. Gör. Süha Gökalp</td></tr>
+          <tr><th>Tarih</th><td>Kasım 2026, Erzurum</td></tr>
+        </table>
+      </div>
+    </div>
+    <section class="ig">
+      <div><h2>Instagram'da Biz</h2><p>Duyurulardaki haberleri <b>@mustfa_bngz</b> hesabımda görselli kartlarla paylaşıyorum.</p><a class="btn beyaz" href="https://www.instagram.com/mustfa_bngz/">Takip Et</a></div>
+      <div class="ig-galeri"><img src="instagram-gorselleri/1.jpg" alt=""><img src="instagram-gorselleri/2.jpg" alt=""><img src="instagram-gorselleri/3.jpg" alt=""><img src="instagram-gorselleri/4.jpg" alt=""><img src="instagram-gorselleri/5.jpg" alt=""><img src="instagram-gorselleri/6.jpg" alt=""></div>
+    </section>
+  </td></tr>
+  <tr><td colspan="2" class="alt"><div>
+    <p class="logo">🍽️ Lezzet<b>Durağı</b></p>
+    <p><a href="corbalar.html">Çorbalar</a> · <a href="anayemekler.html">Ana Yemekler</a> · <a href="tatlilar.html">Tatlılar</a> · <a href="duyurular.html">Duyurular</a> · <a href="hakkimda.html">Hakkımda</a> · <a href="iletisim.html">İletişim</a> · <a href="https://www.instagram.com/mustfa_bngz/">Instagram @mustfa_bngz</a></p>
+    <p>© 2026 Mustafa Ömer Bingöl · Web Tasarımının Temelleri Vize Projesi · Fotoğraflar: Wikimedia Commons (CC) · Haberler: eSonDakika.com</p>
+  </div></td></tr>
+</table>
+<script src="betik.js"></script>
+</body>
+</html>
