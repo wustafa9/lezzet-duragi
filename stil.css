@@ -106,8 +106,6 @@ nav a:hover, nav .aktif { background: var(--ana); color: #fff; }
 .kutu { margin-top: 28px; padding: 30px; border-radius: 26px; }
 .kutu h2 { margin-top: 0; font-size: 26px; }
 .ikili { display: grid; grid-template-columns: 3fr 2fr; gap: 28px; }
-.proje .kutu { margin: 0; padding: 22px; }
-.proje p { margin: 0; color: var(--soluk); font-size: 13px; }
 .beceri { padding: 0; list-style: none; }
 .beceri li { margin-bottom: 14px; font-weight: 500; }
 .beceri small { float: right; color: var(--soluk); }
